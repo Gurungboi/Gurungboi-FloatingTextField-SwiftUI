@@ -11,6 +11,9 @@
 		10F04A1F2795390E00C5266A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F04A1E2795390E00C5266A /* ContentView.swift */; };
 		10F04A212795391100C5266A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F04A202795391100C5266A /* Assets.xcassets */; };
 		10F04A242795391100C5266A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F04A232795391100C5266A /* Preview Assets.xcassets */; };
+		10F04A2D279581DF00C5266A /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F04A2A279581DE00C5266A /* FloatingLabelTextField.swift */; };
+		10F04A2E279581DF00C5266A /* FloatTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F04A2B279581DE00C5266A /* FloatTextFieldStyle.swift */; };
+		10F04A2F279581DF00C5266A /* FloatingBorderLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F04A2C279581DF00C5266A /* FloatingBorderLabelTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		10F04A1E2795390E00C5266A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10F04A202795391100C5266A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F04A232795391100C5266A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10F04A2A279581DE00C5266A /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		10F04A2B279581DE00C5266A /* FloatTextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatTextFieldStyle.swift; sourceTree = "<group>"; };
+		10F04A2C279581DF00C5266A /* FloatingBorderLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingBorderLabelTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				10F04A1C2795390E00C5266A /* FloatingTextFieldApp.swift */,
 				10F04A1E2795390E00C5266A /* ContentView.swift */,
+				10F04A2C279581DF00C5266A /* FloatingBorderLabelTextField.swift */,
+				10F04A2A279581DE00C5266A /* FloatingLabelTextField.swift */,
+				10F04A2B279581DE00C5266A /* FloatTextFieldStyle.swift */,
 				10F04A202795391100C5266A /* Assets.xcassets */,
 				10F04A222795391100C5266A /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F04A2F279581DF00C5266A /* FloatingBorderLabelTextField.swift in Sources */,
+				10F04A2E279581DF00C5266A /* FloatTextFieldStyle.swift in Sources */,
 				10F04A1F2795390E00C5266A /* ContentView.swift in Sources */,
+				10F04A2D279581DF00C5266A /* FloatingLabelTextField.swift in Sources */,
 				10F04A1D2795390E00C5266A /* FloatingTextFieldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
